@@ -94,13 +94,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.276641.config" />
-    <Content Include="Reference\Microsoft.OData.Client.dll" />
-    <Content Include="Reference\Sitecore.Commerce.Connect.Core.dll" />
-    <Content Include="Reference\Sitecore.Commerce.Engine.Connect.dll" />
+    <Content Include="Reference\Microsoft.OData.Client.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.Commerce.Connect.Core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reference\Sitecore.Commerce.Engine.Connect.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Reference\Sitecore.Commerce.ServiceProxy.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Reference\Sitecore.ContentSearch.dll" />
+    <Content Include="Reference\Sitecore.ContentSearch.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationInsights.config" />
